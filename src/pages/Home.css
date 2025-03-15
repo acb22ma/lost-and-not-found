@@ -1,0 +1,145 @@
+.app-logoHome {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  padding-left: 20px;
+}
+
+.icon-large {
+  font-size: 32px;
+}
+
+.profile-head {
+    text-align: center;
+    margin-left: -50px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.profile-container canvas {
+  margin-bottom: 0px;
+}
+
+.qr-code-canvas {
+    background-color: #d436b8;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+.friend-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+  width: 80%;
+  margin-bottom: 20px;
+  animation: fadeInRight;
+  animation-duration: 2s;
+}
+
+.friend-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.friend-card h3 {
+  color: #d436b8;
+}
+
+.custom-alert .alert-head {
+  color: #d436b8;
+}
+
+.search-footer {
+  background: #1e1e1e;
+  height: 50vh;
+  border-radius: 35px 35px 0 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 20px;
+  animation: slideInUp;
+  animation-duration: 2s;
+}
+
+.search {
+  margin-top: -50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.block {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ion-modal {
+  --height: auto;
+}
+
+.ion-delegate-host.ion-page {
+  background-image: url('../assets/img/friendsbg.png');
+  background-size: cover;
+  border-radius: 30px 30px 0 0;
+  height: 45vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-scanner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 40px 70px 40px 70px;
+  border-radius: 15px;
+}
+
+.friend-profPic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pic-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #d436b8;
+  margin-bottom: 10px;
+}
+
+.lottie-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
